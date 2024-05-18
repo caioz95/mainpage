@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTec</title>
+    <link rel="shortcut icon" type="image" href="./image/logo2.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Folty&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+</head>
+<body>
+
+    <!-- top navbar -->
+    <div class="top-navbar">
+        <div class="top-icons">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="other-links">
+            <button id="btn-login"><a href="#">Login</a></button>
+            <button id="btn-signup"><a href="#">Criar Conta</a></button>
+
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </div>
+    <!-- top navbar -->
+
+    <div class="home-section">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./image/logo.png" alt="" width="180px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Mais Vendidos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1c50;">
+                      <li><a class="dropdown-item" href="#">Video Games</a></li>
+                      <li><a class="dropdown-item" href="#">Computadores</a></li>
+                      <li><a class="dropdown-item" href="#">Hardware</a></li>
+                      <li><a class="dropdown-item" href="#">Periféricos</a></li>
+                      <li><a class="dropdown-item" href="#">TV's</a></li>
+                      <li><a class="dropdown-item" href="#">Games</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Nós</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                </ul>
+               
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar -->
+
+        <!-- home content -->
+        <section class="home">
+            <div class="content">
+                <h3>Mais Vendidos
+                    <br> <span>Com até 50% de Desconto</span>
+                </h3>
+                <p>Conheça os queridinhos da loja! confira nossos produtos mais vendidos.</p>
+                <button id="shopnow">Ver Mais</button>
+            </div>
+            <div class="img">
+                <img src="./image/b2.png" alt="">
+            </div>
+        </section>
+        <!-- home content -->
+    </div>
+
+<!-- top cards -->
+<div class="container" id="top-cards">
+    <div class="row justify-content-center">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="./image/topcard1.png" alt="">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Headset Gamer Redragon</h5>
+                    <p class="card-text">O mais destacado Headset RedDragon, agora em uma linda versão white lunar!</p>
+                    <button>Compre Agora</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="./image/topcard2.png" alt="">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Mouse Gamer Logitech G203</h5>
+                    <p class="card-text">O G203 LIGHTSYNC vem pronto para jogar. Com um sensor de 8.000 DPI e cores RGB LIGHTSYNC personalizáveis.</p>
+                    <button>Compre Agora</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="./image/topcard3.png" alt="">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">PC Gamer Neologic AMD Ryzen 5 5600g</h5>
+                    <p class="card-text">Chegou a hora de elevar sua experiência gaming para um novo patamar!</p>
+                    <button>Compre Agora</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- top cards -->
+    
+
+    <!-- banner -->
+    <div class="banner">
+        <div class="content">
+            <h1>Garanta já o seu novo PC</h1>
+            <p>Computadores de ultima geração para elevar a sua experiência nos games</p>
+            <div id="bannerbtn"><button>COMPRAR AGORA</button></div>
+        </div>
+    </div>
+    <!-- banner -->
+
+    <!-- product cards -->
+    <div class="container" id="product-cards">
+        <h1 class="text-center">RECOMENDADOS</h1>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0 mb-4">
+                <div class="card">
+                    <img src="./image/headset.png" alt="">
+                    <div class="card-body">
+                        <h3>Headset Gamer Havit</h3>
+                        <p>Headset Gamer Havit H2232D</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>R$ 159,99 <strike>R$ 282,99</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0 mb-4">
+                <div class="card">
+                    <img src="./image/ps5.png" alt="">
+                    <div class="card-body">
+                        <h3>Console Playstation 5 Sony</h3>
+                        <p>Maravilhe-se com os gráficos incríveis</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>R$ 3.599,99 <strike>R$ 3.999,99</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0 mb-4">
+                <div class="card">
+                    <img src="./image/notebook.png" alt="">
+                    <div class="card-body">
+                        <h3>Notebook Samsung Galaxy Book2</h3>
+                        <p>Processador Intel Core de 12ª geração</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>R$ 2.599,99 <strike>R$ 3.222,21</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0 mb-4">
+                <div class="card">
+                    <img src="./image/monitor.png" alt="">
+                    <div class="card-body">
+                        <h3>Monitor Concórdia Gamer 23.8</h3>
+                        <p>Led Full Hd, 165hz, Freesync</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>R$ 589,99 <strike>R$ 749,00</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0 mb-4">
+                <div class="card">
+                    <img src="./image/placavideo.png" alt="">
+                    <div class="card-body">
+                        <h3>Placa de Vídeo RTX 4060</h3>
+                        <p>8GB GDDR6, DLSS, Ray Tracing</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>R$ 2.199,99 <strike>R$ 2.444,99</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0 mb-4">
+                <div class="card">
+                    <img src="./image/cadeira.png" alt="">
+                    <div class="card-body">
+                        <h3>Cadeira Gamer Husky Gaming</h3>
+                        <p>Com Almofadas Reclinável</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>R$ 1.399,99 <strike>R$ 1.555,54</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0 mb-4">
+                <div class="card">
+                    <img src="./image/processador.png" alt="">
+                    <div class="card-body">
+                        <h3>Processador AMD Ryzen 5 5500</h3>
+                        <p>3.6GHz (4.2GHz Max Turbo)</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>R$ 648,99 <strike>R$ 1.230,56</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0 mb-4">
+                <div class="card">
+                    <img src="./image/ssd.png" alt="">
+                    <div class="card-body">
+                        <h3>SSD 480 GB Kingston A400</h3>
+                        <p>Leitura 500MB/s e Gravação: 450MB/s</p>
+                        <div class="star">
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                            <i class="fas fa-star checked"></i>
+                        </div>
+                        <h5>R$ 159,99 <strike>R$ 282,99</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    </div>
+                </div>
+            </div>
+        <a id="viewmorebtn">Ver Mais</a>
+    </div>
+    <!-- product cards -->
+
+    <!-- product -->
+    <div class="container" style="margin-top: 100px;">
+    <hr>
+</div>
+<div class="container">
+    <h3 style="font-weight: bold;">SOBRE NOSSOS PRODUTOS.</h3>
+    <p>Nossos produtos são líderes no mercado de PC gamer e periféricos, oferecendo qualidade incomparável com os melhores preços. Estamos sempre à frente, trazendo inovações e tecnologias de ponta para a sua experiência de jogo. Além disso, garantimos que nossos preços são os mais competitivos do mercado, e se você encontrar um valor mais baixo em outra loja, cobrimos a oferta. Escolha a excelência, escolha a inovação, escolha os melhores preços - escolha os nossos produtos para elevar sua experiência gamer ao próximo nível.</p>
+
+    <hr>
+</div>
+    <!-- product -->
+
+
+<!-- offer -->
+    <div class="container" id="offer">
+        <div class="row">
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h5>Frete Gratis</h5>
+                <p>Acima de R$ 249,99</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-truck"></i>
+                <h5>Entrega Expressa</h5>
+                <p>Receba o seu pedido em até 48 horas.</p>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h5>Selo de qualidade e garantia</h5>
+                <p>Os melhores produtos do mercado</p>
+            </div>
+        </div>
+    </div>
+<!-- footer -->
+<footer id="footer" style="margin-top: 50px;">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-content">
+                    <h3 class="footer-dev-tec"></h3>
+                    <p>Desde 2024 trazendo tudo que há de melhor visite também uma de nossas lojas!</p>
+                    <p>
+                        Rua do Chapeu 123, CEP: 0000-000 - Guarulhos <br>
+                        São Paulo <br>
+                        Brasil <br>
+                    </p>
+                    <strong><i class="fas fa-phone"></i> Telefone: <strong>+000000000000000</strong></strong><br>
+                    <strong><i class="fa-solid fa-envelope"></i> Email: <strong>exemplo@gmail.com</strong></strong>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                      <li><a href="index.html">Início</a></li>
+                      <li><a href="about.html">Sobre</a></li>
+                      <li><a href="contact.html">Contato</a></li>
+                      <li><a href="#">Serviços</a></li>
+                      <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Nossos Serviços</h4>
+                    <p>Descubra uma nova era em entretenimento digital com nossos serviços exclusivos. Explore o mundo dos jogos de alta performance com nossos PCs Gamer, mergulhe em uma experiência imersiva com os melhores periféricos e desfrute dos mais recentes lançamentos de video games. Na DevTec, oferecemos o melhor em tecnologia para garantir que sua experiência seja excepcional em todos os aspectos.</p>
+                    <ul>
+                        <li><a href="#">PC Gamer</a></li>
+                        <li><a href="#">Periféricos</a></li>
+                        <li><a href="#">Video Games</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Nossa Rede Social</h4>
+                    <p>Conecte-se conosco e faça parte de nossa comunidade apaixonada por tecnologia. Siga-nos nas redes sociais para ficar por dentro das últimas novidades, promoções exclusivas e conteúdo emocionante. Junte-se a nós e compartilhe sua paixão pela tecnologia com outros entusiastas. Estamos ansiosos para interagir com você!</p>
+                    <div class="socail-links mt-3">
+                        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="google-plus"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+        <div class="copyright">
+            &copy; Direitos Autorais <strong>Dev Tec</strong>. Todos os direitos reservados
+        </div>
+        <div class="credits">
+            Design Por <a href="#">Caio Dev</a>
+        </div>
+    </div>
+</footer>
+
+    
+    <a href="#" class="arrow"><i><img src="./image/up-arrow.png" alt="" width="50px"></i></a>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
